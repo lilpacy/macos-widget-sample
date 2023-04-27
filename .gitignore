@@ -1,0 +1,60 @@
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xccheckout
+*.xcscmblueprint
+*.xctimestamp
+*.xcuserstate
+*.xcconfig
+*.xcfilelist
+*.xcscheme
+*.xcschememanagement.plist
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build products
+build/
+DerivedData/
+
+# Carthage
+Carthage/Build
+
+# CocoaPods
+Pods/
+*.xcworkspace
+*.xcscmblueprint
+*.xcscheme
+*.xctimestamp
+*.xcuserstate
+Podfile.lock
+
+# Swift Package Manager
+.generated.swift
+Packages/
+.Package.resolved
+.build/
+Dependencies/
+.swift-version
+
+# Others
+*.swiftpm/
+*.xcsettings
+!default.xcsettings
+*.xccheckout
+*.xcschememanagement.plist
